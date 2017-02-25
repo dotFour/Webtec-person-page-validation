@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body>
+	<form action="response.php">
+		<table border="1" width="35%" cellspacing="0" cellpadding="10">
+			<thead></thead>
+			
+			<tbody>
+				<tr>
+					<td colspan="3"><center><h1>PERSON PROFILE</h1></center></td>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td><input type="text"></td>
+					<td>    </td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="text"></td>
+					<td>    </td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" name="gender" value="male"/> Male
+						<input type="radio" name="gender" value="female"/> Female
+						<input type="radio" name="gender" value="other"/> Other
+					</td>
+					<td>    </td>
+				</tr>
+				<tr>
+					<td>Date Of Birth</td>
+					<td><input type="text" size="2"/> / <input type="text" size="2"/> / <input type="text" size="4"/> (dd/mm/yyyy) </td> 
+					<td>    </td>	
+				</tr>
+				<tr>
+						<td>Blood Group</td>
+						<td>
+							<select>
+								<option>A+</option>
+								<option>B+</option>
+								<option>AB+</option>
+								<option>O+</option>
+								<option>A-</option>
+								<option>B-</option>
+								<option>AB-</option>
+								<option>O-</option>
+							</select>
+						</td>
+						<td>    </td>
+				</tr>
+				<tr>
+						<td>Degree</td>
+						<td>
+							<input type="checkbox"/>SSC
+							<input type="checkbox"/>HSC
+							<input type="checkbox"/>BSc
+							<input type="checkbox"/>MSc
+						</td>
+						<td>  </td>		
+				</tr>
+				<tr>
+						<td>Photo</td>
+						<td><input type="file" value="Select"/></td>
+						<td>  </td>
+				</tr>
+				
+				<tr>
+					<td colspan ="3">
+						<input type="button" value="Reset" style="float:right">
+						<input type="button" value="Submit" style="float:right">
+					</td>
+					
+				</tr>
+			</tbody>
+		</table>
+	</form>	
+	</body>
+
+</html>
